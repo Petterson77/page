@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detalhes do processo de desenvolvimento industrial no Brasil.">
+    <title>Desenvolvimento Industrial - Industrialização no Brasil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" class="logo-link" aria-label="Voltar para a página inicial"><h1>Industrialização Brasileira</h1></a>
+            <nav class="main-nav" aria-label="Navegação Principal">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="desenvolvimento.html" class="active">Desenvolvimento</a></li>
+                    <li><a href="linha-do-tempo.html">Linha do Tempo</a></li>
+                    <li><a href="legado.html">Legado</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content-area" role="main">
+        <section id="processo-desenvolvimento" class="content-section">
+            <h2 class="section-title">Como foi o processo de desenvolvimento industrial no Brasil?</h2>
+
+            <article class="periodo-card">
+                <h3>Início Lento no Século XIX</h3>
+                <p>O processo de industrialização no Brasil teve um início lento no século XIX, com destaque para indústrias têxteis e de alimentos, concentradas principalmente na região Sudeste. A economia ainda era predominantemente agroexportadora.</p>
+            </article>
+
+            <article class="periodo-card">
+                <h3>Aceleração em 1930 e a Era Vargas</h3>
+                <p>A industrialização ganhou força a partir de 1930, com o governo de Getúlio Vargas, que adotou políticas de substituição de importações e criou empresas estatais estratégicas, como a Companhia Siderúrgica Nacional (CSN) em 1941. A Crise de 1929 foi um catalisador, forçando o Brasil a reduzir importações e a produzir mais internamente.</p>
+            </article>
+
+            <section class="main-carousel" data-flickity='{ "autoPlay": 3000, "wrapAround": true, "pauseAutoPlayOnHover": false }'>
+                <div class="carousel-cell">
+                    <img src="img/chegada industria.jpg" alt="Antiga fábrica industrial">
+                    <div class="carousel-caption">
+                        <h4>As primeiras fábricas</h4>
+                        <p>No final do século XIX, muitas indústrias nasceram do capital cafeeiro.</p>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <img src="img/operarios.jpg" alt="Operários em linha de produção">
+                    <div class="carousel-caption">
+                        <h4>Mão de obra e o êxodo rural</h4>
+                        <p>O crescimento industrial impulsionou a migração do campo para as cidades.</p>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <img src="img/mercedes.jpg" alt="Indústria moderna e automatizada">
+                    <div class="carousel-caption">
+                        <h4>O futuro da indústria</h4>
+                        <p>A Indústria 4.0 traz automação e inteligência artificial para o setor.</p>
+                    </div>
+                </div>
+            </section>
+            <article class="periodo-card">
+                <h3>O Plano Desenvolvimentista de JK (Anos 1950)</h3>
+                <p>Durante o governo de Juscelino Kubitschek (1956-1961), o lema "50 anos em 5" impulsionou um ambicioso plano de metas. Este período foi marcado por grandes investimentos em infraestrutura (energia e transportes) e pelo estímulo à instalação da indústria automobilística, com a chegada de montadoras como Volkswagen e Mercedes-Benz.</p>
+            </article>
+
+            <article class="periodo-card">
+                <h3>Anos 70: O "Milagre Econômico"</h3>
+                <p>A década de 1970 foi caracterizada por um expressivo crescimento econômico, conhecido como "Milagre Econômico". Houve expansão da capacidade produtiva e modernização industrial, porém, esse crescimento foi acompanhada por um significativo aumento da dívida externa e concentração de renda.</p>
+            </article>
+
+            <article class="periodo-card">
+                <h3>Anos 90 até Hoje: Abertura e Modernização</h3>
+                <p>A partir dos anos 1990, o Brasil passou por um processo de abertura econômica, com a redução de barreiras tarifárias, privatizações de empresas estatais e uma maior inserção no mercado global. O setor industrial buscou modernização e maior competitividade, enfrentando novos desafios e oportunidades.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 - História da Industrialização Brasileira. Todos os direitos reservados.</p>
+            <p>Um projeto dedicado à exploração educacional.</p>
+            <p>SESI CE-265</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
